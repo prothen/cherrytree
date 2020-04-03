@@ -5,13 +5,15 @@ The project home page is [giuspen.com/cherrytree](https://www.giuspen.com/cherry
 ## Getting Started
 ### Prerequisites
 The current (python) version requires:
-* python2
-* python-gtk2
-* python-gtksourceview2
-* p7zip-full
-* python-dbus
-* python-enchant
-* python-chardet
+```bash
+sudo apt-get install python \
+    python-gtk2 \
+    python-gtksourceview2 \
+    p7zip-full \
+    python-dbus \
+    python-enchant \
+    python-chardet 
+```
 
 Then, after cloning, run in the top folder `./cherrytree` or `python2 cherrytree`.
 
