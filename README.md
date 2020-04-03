@@ -12,7 +12,9 @@ sudo apt-get install python \
     p7zip-full \
     python-dbus \
     python-enchant \
-    python-chardet 
+    python-chardet \
+    libcanberra-gtk-module \
+    libcanberra-gtk3-module
 ```
 
 Then, after cloning, run in the top folder `./cherrytree` or `python2 cherrytree`.
